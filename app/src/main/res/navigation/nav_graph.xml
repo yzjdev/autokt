@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    android:label="app_name"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="u.dev.autokt.ui.home.HomeFragment"
+        android:label="首页"/>
+
+
+    <fragment
+        android:id="@+id/appsFragment"
+        android:name="u.dev.autokt.ui.apps.AppsFragment"
+        android:label="应用" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="u.dev.autokt.ui.settings.SettingsFragment"
+        android:label="设置" />
+</navigation>
